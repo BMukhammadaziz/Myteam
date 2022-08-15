@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #014E56;
+    font-family: 'livvic' ;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ASOSIY STILLAR TUGADI */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.site-header:not(:first-child) {
+    margin-left: 40px;
+}
+
+.site-header-logo {
+    width: 160px; 
+    height: 40px;
+}
+
+
+.header-item {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-inner:not(:last-child) {
+    margin-left: 80px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header-link:hover {
+    color:#F67E7E;
+}
+
+.header-link:active {
+    color: aqua;
+}
+
+.button {
+    margin-left: auto; 
+}
+
+.btn-wrapper {
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+    color: #fff;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    transition: all ease 0.5px;
+}
+
+.btn-wrapper:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    color: #002529;
+}
+
+.btn-wrapper:active {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+    color: #002529;
+}
+/* HEADER BOLIMI TUGADI */
+
+.header-text {
+    margin-top: 129px;
+    display: flex;
+    align-items: center;
+}
+.text-h1 {
+    padding-bottom: 180px;
+    width: 350px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;    
+    color: #FFFFFF;
+}
+
+.text-span {
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: #79C8C7;
+}
+
+.text-span {
+    background-color: #F67E7E;
+}
+
+.te-span {
+    margin-bottom: 40px;
+}
+.text-p {
+    padding-bottom: 120px;
+    margin-left: auto;
+    width: 730px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #FFFFFF;
+}
+
+/* TEXT BOLIMI TUGADI */
+
+.meet {
+    background-color: #004047;
+}
+
+.Information-h2 {
+    padding-top: 140px;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.Information-item {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.Information-item:last-child {
+    padding-bottom: 140px;
+}
+
+.Information-inner:first-child {
+    margin-bottom: 76px;
+}
+
+.Information-inner {
+    margin-left: 30px;
+    list-style-type: none;
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+}
+
+.Information-h5 {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;    
+    text-align: center;    
+    color: #79C8C7;
+}
+.Information-p {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 25px;    
+    text-align: center;
+}
+
+.Information-img-div{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.Information-img-div2 {
+    display: flex;
+    justify-content: center;
+
+}
+.Information-img-div3 {
+    display: none;
+}
+
+.ism {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.gapi {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    width: 254px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.active-img-div {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.active-img2 {
+    margin-left: 16px;
+}
+.active-img-div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+/* MEET SECTIONI TUGADI */
+
+.color {
+    margin-top: -170px;
+    background-color: #012F34;
+}
+.some {
+    margin-top: 168px;
+}
+.some-h2 {
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.some-img {
+    margin-top: 70px;
+    padding-bottom: 151px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SOME SECTIONI TUGADI */
+
+.ready {
+    background-color: #F67E7E;
+    display: flex;
+}
+
+.ready-div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ready-h2 {
+    margin-bottom: 76px;
+    margin-top: 76px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;  
+    color: #012F34;
+}
+.ready-btn {
+    margin-left: 260px;
+    padding: 9px 33px 11px 32px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+}
+
+.ready-btn:hover {
+    color: #fff;
+    background-color: #012F34;
+}
+
+.ready-btn:active {
+    color: #000;
+    background-color: aqua;
+}
+
+/* READY SECTIONI TUGADI */
+
+.footer {
+    background-color: #002529;
+}
+
+.flex {
+    display: flex;
+}
+
+.footer-img {
+    margin-top: 48px;
+    width: 159px;
+}
+
+.footer-item {
+    margin-top: 25px;
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-linkk {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:last-child {
+    margin-left: 40px;
+}
+
+.footer-link:hover {
+    color:#F67E7E;
+}
+
+.footer-linkk:hover {
+    color:#F67E7E;
+}
+
+.header-link:active {
+    color: aqua;
+}
+
+.nav-item {
+    width: 445px;
+    margin-left: 125px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.nav-inner {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.site {
+    margin-top: 48px;
+    width: 275px;
+    margin-left: 125px;
+}
+.site-item {
+    display: flex;
+}
+.site-inner {
+    margin-bottom: 51px;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.site-inner:first-child {
+    margin-left: auto;
+}
+.site-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}

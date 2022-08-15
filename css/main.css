@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #014E56;
+    font-family: 'livvic' ;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ASOSIY STILLAR TUGADI */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.site-header:not(:first-child) {
+    margin-left: 40px;
+}
+
+.site-header-logo {
+    width: 160px; 
+    height: 40px;
+}
+
+
+.header-item {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-inner:not(:last-child) {
+    margin-left: 80px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header-link:hover {
+    color:#F67E7E;
+}
+
+.header-link:active {
+    color: aqua;
+}
+
+.button {
+    margin-left: auto; 
+}
+
+.btn-wrapper {
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+    color: #fff;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    transition: all ease 0.5s;
+}
+
+.btn-wrapper:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    color: #002529;
+}
+
+.btn-wrapper:active {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+    color: #002529;
+}
+
+/* @media only screen and (min-widht: 600px) {
+    .site-header {
+        margin-top: 64px;
+    }
+    
+    .site-header-logo {
+        width: 127px; 
+        height: 32px;
+    }
+    
+    .header-inner:not(:last-child) {
+        margin-left: 48px;
+    }
+
+    .header-link:hover {
+        color:gold;
+    }
+} */
+
+/* HEADER QISMI TUGADI */
+
+.header-text {
+    margin-top: 129px;
+    display: flex;
+    align-items: center;
+}
+.text-h1 {
+    margin-bottom: 250px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    width: 550px;
+    height: 200px;
+}
+
+.header-span span {
+    color: #F67E7E;
+}
+.text-span {
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: #79C8C7;
+}
+.te-span {
+    margin-bottom: 67px;
+}
+.text-p {
+    margin-bottom: 320px;
+    margin-left: 120px;
+    width: 430px;
+    height: 112px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* SARLAVHA TEGI TUGADI */
+
+.color {
+    background-color: #012F34;
+}
+
+.team {
+    display: flex;
+}
+.bluid {
+    padding-top: 140px;
+}
+.bluid-span {
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: #F67E7E;
+    margin-bottom: 54px;
+}
+.bluid-h2 {
+    width: 450px;
+    height: 144px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+.team-div {
+    margin-left: 23px;
+}
+.team-item {
+    margin-top: 198px;
+}
+.team-p {
+    width: 445px;
+    height: 50px;
+}
+.team-inner {
+    margin-left: 132px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.team-inner:last-child {
+    margin-bottom: 140px;
+}
+
+.team-inner:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.team-h5 {
+    margin-bottom: 16px;
+    color: #F67E7E;
+}
+
+/* BLUID SECTIONE TUGADI */
+
+.companies {
+    background-color: #004047;
+}
+.real-img1-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+.real-h2 {
+    padding-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 932px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;    
+    text-align: center;
+}
+
+.real-h2 span {
+    color: #79C8C7;
+}
+.real-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.real-inner {
+    margin-top: 56px;
+    width: 350px;
+    list-style-type: none;
+}
+.real-p {
+    margin-bottom: 24px;
+    width: 350px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;    
+    text-align: center;
+}
+.real-p2 {
+    margin-bottom: 2px;
+    height: 28px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 28px/2 - 10px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;    
+    text-align: center;    
+    color: #79C8C7;
+}
+.real-p3 {
+    margin-bottom: 32px;
+    height: 18px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 18px/2 + 15px);
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+.real-img-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 151px;
+}
+
+/* REAL SECTIONI TUGADI */
+
+.ready {
+    background-color: #F67E7E;
+    display: flex;
+}
+
+.ready-div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ready-h2 {
+    margin-bottom: 76px;
+    margin-top: 76px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;  
+    color: #012F34;
+}
+.ready-btn {
+    margin-left: 260px;
+    padding: 9px 33px 11px 32px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+}
+
+.ready-btn:hover {
+    color: #fff;
+    background-color: #012F34;
+}
+
+.ready-btn:active {
+    color: #000;
+    background-color: aqua;
+}
+
+/* READY SECTIONI TUGADI */
+
+.footer {
+    background-color: #002529;
+}
+
+.flex {
+    display: flex;
+}
+
+.footer-img {
+    margin-top: 48px;
+    width: 159px;
+}
+
+.footer-item {
+    margin-top: 25px;
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-linkk {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:last-child {
+    margin-left: 40px;
+}
+
+.footer-link:hover {
+    color:#F67E7E;
+}
+
+.footer-linkk:hover {
+    color:#F67E7E;
+}
+
+.header-link:active {
+    color: aqua;
+}
+
+.nav-item {
+    width: 445px;
+    margin-left: 125px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.nav-inner {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.site {
+    margin-top: 48px;
+    width: 275px;
+    margin-left: 125px;
+}
+.site-item {
+    display: flex;
+}
+.site-inner {
+    margin-bottom: 51px;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.site-inner:first-child {
+    margin-left: auto;
+}
+.site-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
